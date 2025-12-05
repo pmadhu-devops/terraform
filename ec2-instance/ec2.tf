@@ -28,7 +28,7 @@ resource "aws_security_group" "ec2_sg" {
   }
 }
 
-# DevOps Pratice ami-09c813fb71547fc4f
+# DevOps Pratice redhat instance
 resource "aws_instance" "ec2" {
   ami             = "ami-09c813fb71547fc4f"
   instance_type   = "t2.micro"
